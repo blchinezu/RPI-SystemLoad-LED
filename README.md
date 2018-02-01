@@ -5,9 +5,7 @@ Like this:
 ![raspberry pi 3 model b - closed](https://github.com/blchinezu/rpi-system-load-led/blob/master/IMG_20180131_214042.jpg?raw=true)
 ![raspberry pi 3 model b - opened](https://github.com/blchinezu/rpi-system-load-led/blob/master/IMG_20180131_214209.jpg?raw=true)
 
-Also, here's a video showing exactly what this does:
-
-[Youtube](https://www.youtube.com/watch?v=9k0FLhkswZg)
+Also, here's a video showing exactly what this does: [Youtube](https://www.youtube.com/watch?v=9k0FLhkswZg)
 
 It requires that you have a Raspberry Pi and a SMD 5050 RGB LED. You also have to change pins variables so that they'll point where you stuck the cables.
 
