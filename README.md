@@ -1,5 +1,5 @@
 # Raspberry Pi System Load LED
-A script for your Raspberry Pi that will show the system load through an external RGB led.
+A script for your Raspberry Pi that will show the system load through an external RGB LED.
 
 Like this:
 ![raspberry pi 3 model b - closed](https://github.com/blchinezu/rpi-system-load-led/blob/master/IMG_20180131_214042.jpg?raw=true)
