@@ -1,14 +1,45 @@
 # Raspberry Pi System Load LED
 A script for your Raspberry Pi that will show the system load through an external RGB LED.
 
-Like this:
+--------------------------------------------------------------------------------
+
+### How it works:
+The color range goes from green to red depending on the system load as it follows:
+ - under 25%: quarter brightness starting with pure green
+ - under 50%: half brightness yellow nuances
+ - over 50%: full brightness
+ - over 60%: slowly pulsating orange light
+ - over 80%: fast pulsating red light
+
+--------------------------------------------------------------------------------
+
+### Pictures:
 ![raspberry pi 3 model b - closed](https://github.com/blchinezu/rpi-system-load-led/blob/master/IMG_20180131_214042.jpg?raw=true)
 ![raspberry pi 3 model b - opened](https://github.com/blchinezu/rpi-system-load-led/blob/master/IMG_20180131_214209.jpg?raw=true)
 
-Also, here's a video showing exactly what this does: [Youtube](https://www.youtube.com/watch?v=9k0FLhkswZg)
+--------------------------------------------------------------------------------
 
-It requires that you have a Raspberry Pi and a SMD 5050 RGB LED. You also have to change pins variables so that they'll point where you stuck the cables.
+### Video:
+[![Youtube Video](https://i.ytimg.com/vi/9k0FLhkswZg/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAo_DoDWDPisInGwgvv96DGJtch2g)](https://www.youtube.com/watch?v=9k0FLhkswZg)
 
-I have:
- - a Raspberry Pi 3 model B like any other
- - and [THIS](https://www.aliexpress.com/item/3-Colour-RGB-SMD-LED-Module-5050-full-color-Pwm-tri-color-LED-For-Arduino-MCU/32818529969.html) LED board. I preffered this one because it's compact and I don't have to link the resistors to the LED.
+--------------------------------------------------------------------------------
+
+### Requirements:
+ - Raspberry Pi
+ - Raspbian OS (easiest as it already has every software thing you may need)
+ - SMD 5050 LED board (you can obviously build it yourself too but you'll probably get a bulky thing)
+ - Edit the script so it'll point to the right LED GPIO pins
+
+--------------------------------------------------------------------------------
+
+### My config:
+ - Raspberry Pi 3 Model B
+ - Raspbian OS
+ - [THIS](https://www.aliexpress.com/item/3-Colour-RGB-SMD-LED-Module-5050-full-color-Pwm-tri-color-LED-For-Arduino-MCU/32818529969.html) SMD 5050 LED board
+ - RGB pins: 15, 13, 11
+ - Ground pin: 9
+
+--------------------------------------------------------------------------------
+
+### Raspberry Pi 3 Model B pinout:
+![Raspberry Pi 3 Model B pinout image](https://docs.microsoft.com/en-us/windows/iot-core/media/pinmappingsrpi/rp2_pinout.png)
