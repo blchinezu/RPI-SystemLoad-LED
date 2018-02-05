@@ -154,5 +154,5 @@ RED.stop()
 GREEN.stop()
 BLUE.stop()
 
-# Tidy up and remaining connections.
+# Tidy up any remaining connections.
 GPIO.cleanup()
