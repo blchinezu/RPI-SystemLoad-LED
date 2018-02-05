@@ -27,7 +27,7 @@ You might want to set it to run at startup :)
 ### Pictures
 
 ![raspberry pi 3 model b - closed](https://raw.githubusercontent.com/blchinezu/RPI-SystemLoad-LED/master/images/IMG_20180131_214042.jpg)
-![raspberry pi 3 model b - opened](https://github.com/blchinezu/RPI-SystemLoad-LED/blob/master/images/IMG_20180131_214209.jpg?raw=true)
+![raspberry pi 3 model b - opened](https://raw.githubusercontent.com/blchinezu/RPI-SystemLoad-LED/master/images/IMG_20180131_214209.jpg)
 
 --------------------------------------------------------------------------------
 
