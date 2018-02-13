@@ -18,7 +18,9 @@ The color range goes from green to red depending on the system load as it follow
 
 Download *RPI-SystemLoad-LED.py*, put it wherever you want and then run it with:
 
-    # python3 RPI-SystemLoad-LED.py
+```bash
+python3 RPI-SystemLoad-LED.py
+```
 
 You might want to set it to run at startup :)
 
@@ -33,7 +35,7 @@ You might want to set it to run at startup :)
 
 ### Video
 
-[![Youtube Video](https://raw.githubusercontent.com/blchinezu/RPI-SystemLoad-LED/master/images/video-thumb.jpeg)](https://www.youtube.com/watch?v=9k0FLhkswZg)
+[![Youtube Video](http://img.youtube.com/vi/9k0FLhkswZg/0.jpg)](https://www.youtube.com/watch?v=9k0FLhkswZg)
 
 --------------------------------------------------------------------------------
 
